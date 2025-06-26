@@ -1,0 +1,72 @@
+lambda=0.4  seed=42
+
+🔁  Starting Epoch 1/5
+Batch   1/75  - Loss: 0.8299  - Acc: 0.4375
+Batch  11/75  - Loss: 0.2510  - Acc: 0.8125
+Batch  21/75  - Loss: 0.1419  - Acc: 0.8750
+Batch  31/75  - Loss: 0.1394  - Acc: 0.9027
+Batch  41/75  - Loss: 0.0611  - Acc: 0.9154
+Batch  51/75  - Loss: 0.1482  - Acc: 0.9234
+Batch  61/75  - Loss: 0.0947  - Acc: 0.9262
+Batch  71/75  - Loss: 0.0412  - Acc: 0.9296
+Batch  75/75  - Loss: 0.1464  - Acc: 0.9303
+✅  Epoch 1 done. Loss: 0.1805, Acc: 0.9303
+
+🔁  Starting Epoch 2/5
+Batch   1/75  - Loss: 0.0552  - Acc: 0.9688
+Batch  11/75  - Loss: 0.0584  - Acc: 0.9759
+Batch  21/75  - Loss: 0.0321  - Acc: 0.9792
+Batch  31/75  - Loss: 0.0313  - Acc: 0.9819
+Batch  41/75  - Loss: 0.0623  - Acc: 0.9817
+Batch  51/75  - Loss: 0.0290  - Acc: 0.9816
+Batch  61/75  - Loss: 0.0453  - Acc: 0.9831
+Batch  71/75  - Loss: 0.1010  - Acc: 0.9813
+Batch  75/75  - Loss: 0.0325  - Acc: 0.9814
+✅  Epoch 2 done. Loss: 0.0525, Acc: 0.9814
+
+🔁  Starting Epoch 3/5
+Batch   1/75  - Loss: 0.0162  - Acc: 1.0000
+Batch  11/75  - Loss: 0.0212  - Acc: 0.9972
+Batch  21/75  - Loss: 0.0189  - Acc: 0.9940
+Batch  31/75  - Loss: 0.0111  - Acc: 0.9940
+Batch  41/75  - Loss: 0.0292  - Acc: 0.9939
+Batch  51/75  - Loss: 0.0338  - Acc: 0.9936
+Batch  61/75  - Loss: 0.0237  - Acc: 0.9931
+Batch  71/75  - Loss: 0.0097  - Acc: 0.9919
+Batch  75/75  - Loss: 0.0074  - Acc: 0.9917
+✅  Epoch 3 done. Loss: 0.0304, Acc: 0.9917
+
+🔁  Starting Epoch 4/5
+Batch   1/75  - Loss: 0.0056  - Acc: 1.0000
+Batch  11/75  - Loss: 0.0148  - Acc: 0.9957
+Batch  21/75  - Loss: 0.0041  - Acc: 0.9955
+Batch  31/75  - Loss: 0.0090  - Acc: 0.9965
+Batch  41/75  - Loss: 0.0176  - Acc: 0.9954
+Batch  51/75  - Loss: 0.0055  - Acc: 0.9954
+Batch  61/75  - Loss: 0.0130  - Acc: 0.9954
+Batch  71/75  - Loss: 0.0189  - Acc: 0.9949
+Batch  75/75  - Loss: 0.0095  - Acc: 0.9952
+✅  Epoch 4 done. Loss: 0.0186, Acc: 0.9952
+
+🔁  Starting Epoch 5/5
+Batch   1/75  - Loss: 0.0021  - Acc: 1.0000
+Batch  11/75  - Loss: 0.0094  - Acc: 0.9972
+Batch  21/75  - Loss: 0.0049  - Acc: 0.9978
+Batch  31/75  - Loss: 0.0049  - Acc: 0.9965
+Batch  41/75  - Loss: 0.0060  - Acc: 0.9962
+Batch  51/75  - Loss: 0.0073  - Acc: 0.9966
+Batch  61/75  - Loss: 0.0080  - Acc: 0.9962
+Batch  71/75  - Loss: 0.0043  - Acc: 0.9967
+Batch  75/75  - Loss: 0.0245  - Acc: 0.9965
+✅  Epoch 5 done. Loss: 0.0125, Acc: 0.9965
+Baseline  overall 0.866  worst 0.530  gap 0.336
+
+Divergence per group: {'0.0': 0.0, '1.0': 0.0, '2.0': 0.0, '3.0': 0.004730368968779565}
+/usr/local/lib/python3.11/dist-packages/torch/utils/data/dataloader.py:624: UserWarning: This DataLoader will create 4 worker processes in total. Our suggested max number of worker in current system is 2, which is smaller than what this DataLoader is going to create. Please be aware that excessive worker creation might get DataLoader running slow or even freeze, lower the worker number to avoid potential slowness/freeze if necessary.
+  warnings.warn(
+🌈  DW Epoch 1  loss=0.1548  acc=0.942
+🌈  DW Epoch 2  loss=0.0562  acc=0.981
+🌈  DW Epoch 3  loss=0.0272  acc=0.993
+🌈  DW Epoch 4  loss=0.0223  acc=0.994
+🌈  DW Epoch 5  loss=0.0102  acc=0.997
+Mitigation overall 0.835  worst 0.578  gap 0.257
